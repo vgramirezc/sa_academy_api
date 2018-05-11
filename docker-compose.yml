@@ -5,13 +5,13 @@ services:
     environment:
       PORT: '5000'
       SHOW_URLS: 'true'
-      STUDENTS_URL: '0.0.0.0'
+      STUDENTS_URL: 'students-ms'
       STUDENTS_PORT: '4000'
       STUDENTS_ENTRY: 'students'
-      COURSES_URL: '0.0.0.0'
+      COURSES_URL: 'courses-ms'
       COURSES_PORT: '4001'
       COURSES_ENTRY: 'courses'
-      GRADES_URL: '0.0.0.0'
+      GRADES_URL: 'sa_grades_ms'
       GRADES_PORT: '4002'
       GRADES_ENTRY: 'grades'
     ports:
